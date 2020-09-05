@@ -37,6 +37,8 @@ body {
     background-color: pink;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
     font-weight: bold;
+    max-height: 64px;
+    min-height: 64px;
 
 }
 
@@ -57,3 +59,40 @@ body {
     padding: 0 20px 0 20px; 
 }
 
+.hometext {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 2em;
+}
+
+.whyaretheycooltext {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 2em;
+}
+
+.howtobecomerhinotext {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    font-size: 2em;
+}
+
+hr {
+    color: coral;
+    height: 5px;
+}
+
+span.Why {
+    color: crimson;
+}
+
+span.Love {
+    color: hotpink;
+}
+
+span.transformation {
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: ivory;
+    }
+  }
